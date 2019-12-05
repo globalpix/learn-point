@@ -5,7 +5,7 @@ import styled from "styled-components"
 
 const Header = ({ siteTitle }) => (
   <Container>
-      <Title to="/"><h1>{siteTitle}</h1></Title>
+      <Title to="/">{siteTitle}</Title>
   </Container>
 )
 
@@ -18,19 +18,18 @@ Header.defaultProps = {
 }
 
 const Container = styled.header`
-display: flex;
-flex-direction:row;
 background-color: #53376D;
-max-height:15vh;
-justify-content:flex-start;
+position:fixed;
+top:0;
+border-bottom:0.25vh solid #dcbbf9;
+width:100vw;
+height:10vh;
 `
 const Title =  styled(props => <Link {...props} />)`
-color: #FFFFFF;
-display:flex;
-felx-direction:column;
-padding: 1em 0em 0em 0.5em;
+color: #dcbbf9;
+font-size:1.618em;
+padding: 0.5em 0em 0.5em 0.5em;
 text-decoration: none;
-justify-content:center;
 text-transform:uppercase;
 `
 export default Header

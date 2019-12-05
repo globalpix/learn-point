@@ -3,22 +3,23 @@ import styled from "styled-components"
 
 const Footer = () => {
     return (   
-        <>          
+                
           <Container>
             <Copyright>Poweres by Eficace Consultoria</Copyright>        
           </Container>
             
-        </> 
+       
       )      
 }
 const Container = styled.footer`
-display: flex;
-min-height:20vh;
-background:#241c2b;
+max-height:10vh;
+width:100vw;
+background-color:#241c2b;
+padding:0.5em;
 `
 const Copyright = styled.p`
 color:#dcbbf9;
-padding:0.5em;
+
 `
 
 export default Footer

@@ -27,12 +27,12 @@ const Layout = ({ children }) => {
   `)
   return (   
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <Container>
+      <Content>
+        <Header siteTitle={data.site.siteMetadata.title} />
         <MenuLessons></MenuLessons>
-        <Main>{children}</Main>
-      </Container>
-      <Footer></Footer>     
+        <Main>{children}</Main>        
+        <Footer></Footer>
+      </Content>          
     </>
   )
 }
@@ -41,14 +41,21 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-const Container = styled.div`
+const Content = styled.div`
   display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
   background:#241c2b;
-  height:70vh;
+  height:100vh;
   `
  
 const Main = styled.main`
-  padding:0.8em;
+  padding:11vh 0 0 18vw;
+  width:84vw;
+  min-height:75vh;
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:column;
 `
 
 export default Layout
