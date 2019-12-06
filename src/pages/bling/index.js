@@ -8,7 +8,8 @@ const Dashboard = () => (
   <Layout>
     <SEO title="Bling - O que é o Bling?" />
     <h2>O que é o Bling?</h2>
-    <iframe width="720" height="480" src="https://www.youtube.com/embed/ImAYDYannNY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div>
+    <iframe width="981" height="489" src="https://www.youtube.com/embed/7FW_o1bXKjw?list=WL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
     <p>O Bling é um sistema de gestão online que ajuda a administrar o seu negócio de
 forma simples e rápido,tomando a gestão da sua empresa uma tarefa muito mais fácil.</p>
 <p> Com o Bling você poupa tempo e ganha dinheiro, 

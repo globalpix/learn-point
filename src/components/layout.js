@@ -12,7 +12,7 @@ import "./default.css"
 import styled from "styled-components"
 
 import Header from "./header"
-import MenuLessons from "./menulessons"
+import Menu from "./menu"
 import Footer from "./footer"
 
 const Layout = ({ children }) => {
@@ -29,7 +29,7 @@ const Layout = ({ children }) => {
     <>
       <Content>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <MenuLessons></MenuLessons>
+        <Menu></Menu>
         <Main>{children}</Main>        
         <Footer></Footer>
       </Content>          
