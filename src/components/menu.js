@@ -3,24 +3,20 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 const Menu = () => {
-
-    return (   
-          
+    return ( 
       <Content>
           <Container>
-            <TitleHead>Bling</TitleHead>
+            <TitleHead>Bling</TitleHead>       
             <SubTitle to="/bling/">Início</SubTitle>
-            <SubTitle to="/bling/">Dashboard</SubTitle>
             <SubTitle to="/bling/cadastros">Cadastros</SubTitle>
             <SubTitle to="/bling/suprimentos">Suprimentos</SubTitle>
             <SubTitle to="/bling/vendas">Vendas</SubTitle>
             <SubTitle to="/bling/financas">Finanças</SubTitle>
-            <SubTitle to="/bling/preferencias">Preferências</SubTitle>             
+            <SubTitle to="/bling/preferencias">Preferências</SubTitle> 
           </Container>
           <hr></hr>
           <Container>
             <TitleHead>XTech</TitleHead>
-                       
           </Container>
       </Content>            
         
@@ -47,7 +43,7 @@ width:100%;
 width:14vw;
 `
 
-const TitleHead = styled.h3`
+const TitleHead = styled.div`
 color:#dcbbf9;
 width:100%;
 padding:0.1em 0.2em;
@@ -55,8 +51,7 @@ text-transform:uppercase;
 margin:0;
 `
 const SubTitle = styled(props => <Link {...props} />)`
-width:90%;
-display:flex;
+display:block;
 font-size:0.8em;
 margin:0.2em 1em;
 text-transform:uppercase;
@@ -64,11 +59,6 @@ text-decoration:none;
 :hover{
   color:#ffffff;
 },
-:before{
-  content:'>';
-  padding:0 0.2em;
-  text-align:center;
-}
 `
 
 export default Menu
