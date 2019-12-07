@@ -1,7 +1,7 @@
 *{
     font-family: 'Oswald';
-    font-weight: 200 ;
-    letter-spacing: 0.05em;
+    font-weight: 100 ;
+    letter-spacing: 0.03em;
   }
   html {
     -ms-text-size-adjust: 100%;
@@ -222,7 +222,7 @@
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
-    color:#dcbbf9;
+    color:#241D2C;
     font-weight: 400;
     text-rendering: optimizeLegibility;
     line-height: 1.2;
@@ -309,7 +309,9 @@
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 1.45rem;
+    margin-bottom: 0.8rem;
+    font-weight: 300;
+    font-family:'Open Sans Condensed' !important;
   }
   figure {
     margin-left: 0;

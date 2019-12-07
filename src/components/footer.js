@@ -5,7 +5,7 @@ const Footer = () => {
     return (   
                 
           <Container>
-            <Copyright>Poweres by Eficace Consultoria</Copyright>        
+            <Copyright>Powered by Eficace Consultoria</Copyright>        
           </Container>
             
        

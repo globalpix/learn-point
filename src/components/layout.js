@@ -29,9 +29,9 @@ const Layout = ({ children }) => {
     <>
       <Content>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <Menu></Menu>
+        <Menu/>
         <Main>{children}</Main>        
-        <Footer></Footer>
+        <Footer/>
       </Content>          
     </>
   )
@@ -45,14 +45,16 @@ const Content = styled.div`
   display: flex;
   flex-direction:row;
   flex-wrap:wrap;
-  background:#241c2b;
-  height:100vh;
+  
+  min-height:100vh;
+  height:auto;
   `
  
 const Main = styled.main`
   padding:11vh 0 0 18vw;
   width:84vw;
   min-height:75vh;
+  height:100%;
   display:flex;
   flex-wrap:wrap;
   flex-direction:column;

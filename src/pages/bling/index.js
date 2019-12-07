@@ -1,15 +1,18 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 
+import styled from "styled-components"
+
 const Dashboard = () => (
   <Layout>
     <SEO title="Bling - O que é o Bling?" />
+    <Content>
     <h2>O que é o Bling?</h2>
-    <div>
-    <iframe width="981" height="489" src="https://www.youtube.com/embed/7FW_o1bXKjw?list=WL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+    
+      <iframe title="Bling" width="960" height="489" src="https://www.youtube.com/embed/7FW_o1bXKjw?list=WL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
     <p>O Bling é um sistema de gestão online que ajuda a administrar o seu negócio de
 forma simples e rápido,tomando a gestão da sua empresa uma tarefa muito mais fácil.</p>
 <p> Com o Bling você poupa tempo e ganha dinheiro, 
@@ -34,8 +37,10 @@ fornecedores e vendedores.</p>
 que entra e sai da sua empresa em tempo
 real.
     </p>
-    <Link to="/">Voltar ao início</Link>
+    </Content>
   </Layout>
 )
-
+const Content = styled.div`
+  display: block;
+  `
 export default Dashboard

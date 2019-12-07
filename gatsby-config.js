@@ -36,7 +36,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Oswald']
+          families: ['Oswald', 'Open Sans Condensed:300,700']
         }
       }
     }

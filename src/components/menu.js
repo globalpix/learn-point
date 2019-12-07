@@ -9,19 +9,18 @@ const Menu = () => {
       <Content>
           <Container>
             <TitleHead>Bling</TitleHead>
+            <SubTitle to="/bling/">Início</SubTitle>
             <SubTitle to="/bling/">Dashboard</SubTitle>
             <SubTitle to="/bling/cadastros">Cadastros</SubTitle>
             <SubTitle to="/bling/suprimentos">Suprimentos</SubTitle>
             <SubTitle to="/bling/vendas">Vendas</SubTitle>
-            <SubTitle to="/bling/financas">Finanças</SubTitle>            
+            <SubTitle to="/bling/financas">Finanças</SubTitle>
+            <SubTitle to="/bling/preferencias">Preferências</SubTitle>             
           </Container>
           <hr></hr>
           <Container>
             <TitleHead>XTech</TitleHead>
-            <SubTitle to="/bling/cadastros">Cadastros</SubTitle>
-            <SubTitle to="/bling/suprimentos">Suprimentos</SubTitle>
-            <SubTitle to="/bling/vendas">Vendas</SubTitle>
-            <SubTitle to="/bling/financas">Finanças</SubTitle>            
+                       
           </Container>
       </Content>            
         
