@@ -14,7 +14,7 @@ const Dashboard = () => (
       <iframe title="Bling" width="960" height="489" src="https://www.youtube.com/embed/7FW_o1bXKjw?list=WL" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     
     <p>O Bling é um sistema de gestão online que ajuda a administrar o seu negócio de
-forma simples e rápido,tomando a gestão da sua empresa uma tarefa muito mais fácil.</p>
+forma simples e rápido, tornando a gestão da sua empresa uma tarefa muito mais fácil.</p>
 <p> Com o Bling você poupa tempo e ganha dinheiro, 
 com ele você emite notas fiscais para o seu cliente, 
 fazendo os cálculos impostos de forma automática.</p>
