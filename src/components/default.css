@@ -45,7 +45,7 @@
   }
   a {
     background-color: transparent;
-    color:#c37fff;
+    color:#b1d9ed;
     -webkit-text-decoration-skip: objects;
   }
   a:active,
@@ -222,10 +222,10 @@
     padding-right: 0;
     padding-top: 0;
     margin-bottom: 1.45rem;
-    color:#241D2C;
+    color:#182228;
     font-weight: 400;
     text-rendering: optimizeLegibility;
-    line-height: 1.2;
+    line-height: 1.4em;
     text-transform:uppercase;
   }
   h1 {

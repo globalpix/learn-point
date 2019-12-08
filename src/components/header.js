@@ -18,18 +18,19 @@ Header.defaultProps = {
 }
 
 const Container = styled.header`
-background-color: #53376D;
+background-color: #335566;
 position:fixed;
 top:0;
-border-bottom:0.25vh solid #dcbbf9;
+border-bottom:0.25vh solid #b1d9ed;
 width:100vw;
 height:10vh;
 `
 const Title =  styled(props => <Link {...props} />)`
-color: #dcbbf9;
+color:#b1d9ed;
 font-size:1.618em;
-padding: 0.5em 0em 0.5em 0.5em;
+padding: 0.5em 0em 0.25em 0.5em;
 text-decoration: none;
 text-transform:uppercase;
+line-height:10vh;
 `
 export default Header

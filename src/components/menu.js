@@ -14,7 +14,7 @@ const Menu = () => {
             <SubTitle to="/bling/financas">Finanças</SubTitle>
             <SubTitle to="/bling/preferencias">Preferências</SubTitle> 
           </Container>
-          <hr></hr>
+          <p></p>
           <Container>
             <TitleHead>XTech</TitleHead>
           </Container>
@@ -24,7 +24,7 @@ const Menu = () => {
 }
 
 const Content = styled.aside`
-background:#534261;
+background:#335566;
 position:fixed;
 flex:1;
 display: flex;
@@ -38,13 +38,13 @@ border-bottom:0.5vh solid #dcbbf9;
 overflow:auto;
 `
 const Container = styled.nav`
-background:#241C2B;
+background:#182328;
 width:100%;
 width:14vw;
 `
 
 const TitleHead = styled.div`
-color:#dcbbf9;
+color:#b1d9ed;
 width:100%;
 padding:0.1em 0.2em;
 text-transform:uppercase;
@@ -52,6 +52,7 @@ margin:0;
 `
 const SubTitle = styled(props => <Link {...props} />)`
 display:block;
+color:#b1d9ed;
 font-size:0.8em;
 margin:0.2em 1em;
 text-transform:uppercase;
