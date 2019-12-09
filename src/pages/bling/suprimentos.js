@@ -94,12 +94,7 @@ const Suprimentos = () => (
 
     <h4>Cancelado:</h4>
     <p>Cancela Pedido de Compra.Situação muda para Cancelado</p>
-
-
-    <h3>Nota de entrada</h3>
-    
-
-    <h3>Relatórios</h3>      
+ 
     <Link to="/bling/">Bling</Link>
   </Layout>
 )
