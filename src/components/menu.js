@@ -34,13 +34,14 @@ padding:0.5em 0.5em 0 0.5em;
 min-height:70vh;
 margin-bottom:2vh;
 margin-top:10vh;
-border-bottom:0.5vh solid #dcbbf9;
 overflow:auto;
+height:100%;
 `
 const Container = styled.nav`
 background:#182328;
 width:100%;
 width:14vw;
+
 `
 
 const TitleHead = styled.div`

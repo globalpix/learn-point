@@ -14,12 +14,12 @@ const Footer = () => {
 const Container = styled.footer`
 max-height:10vh;
 width:100vw;
-background-color:#241c2b;
+background-color:#335566;
 padding:0.5em;
 `
 const Copyright = styled.p`
-color:#dcbbf9;
-
+color:#b1d9ed;
+line-height:10vh;
 `
 
 export default Footer
