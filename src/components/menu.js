@@ -12,12 +12,8 @@ const Menu = () => {
             <SubTitle to="/bling/suprimentos">Suprimentos</SubTitle>
             <SubTitle to="/bling/vendas">Vendas</SubTitle>
             <SubTitle to="/bling/financas">Finanças</SubTitle>
-            <SubTitle to="/bling/preferencias">Preferências</SubTitle> 
           </Container>
-          <p></p>
-          <Container>
-            <TitleHead>XTech</TitleHead>
-          </Container>
+          
       </Content>            
         
       )
@@ -38,7 +34,6 @@ overflow:auto;
 height:100%;
 `
 const Container = styled.nav`
-background:#182328;
 width:100%;
 width:14vw;
 

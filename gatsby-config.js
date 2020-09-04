@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Learn Point`,
-    description: `Sistema para aprendizado de plataformas`,
+    title: `Bling`,
+    description: `Tutorial da plataforma Bling`,
     author: `@gatsby`,
   },
   plugins: [
